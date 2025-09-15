@@ -1,5 +1,19 @@
 # Website Data Searcher EXE Builder
 
+A single Python script (site_searcher.py) that:
+
+fetches a page (requests) or (optionally) loads JS pages with Selenium,
+
+extracts elements by CSS selector or XPath,
+
+returns element text or attributes (href/src/etc.),
+
+writes results to CSV or JSON.
+
+a requirements.txt and the PyInstaller command to create the .exe.
+
+usage examples, packaging tips, and legal/ethical notes.
+
 ## 1) `site_searcher.py`
 
 ``` python
